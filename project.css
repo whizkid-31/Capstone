@@ -46,7 +46,7 @@ nav{
 
 .images img{
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 0.5vw;
 }
 
 .item{
@@ -60,7 +60,7 @@ nav{
 
 .upper{
     text-align: left;
-    font-size: 20px;
+    font-size: 1.5vw;
 }
 
 .paragraph{
@@ -71,9 +71,109 @@ nav{
     display: flex;
     justify-content: center;
     margin-bottom: 10vw;
+    margin-top: 10vw;
 }
 
 .paragraph h3 {
     width: 45vw;
 }
 
+.para{
+    font-family: 'DotGothic16';
+    font-size: 3vw;
+    font-weight: 200;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10vw;
+    margin-top: 10vw;
+    border-bottom: 1px solid black;
+}
+
+#para2{
+    font-family: 'Archivo';
+    font-size: 1.5vw;
+    margin-right: 4vw;
+    width: 38vw;
+}
+
+#para1{
+    font-size: 3vw;
+    margin-left: 4vw;
+    margin-bottom: 8vw;
+}
+
+.footer{
+    margin: 4em 4vw 18vh;
+    text-align: center;
+}
+
+.footer h3{
+    font-family: 'DotGothic16';
+    text-align: center;
+}
+
+#form{
+    font-family: 'Archivo';
+    font-size: 1vw;
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-box{
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Archivo';
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 0.2vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+#synth{
+    font-family: 'DotGothic16';
+    font-size: 1.5vw;
+}
+
+input[type='submit']{
+    font-family: 'Archivo Narrow';
+    background-color: blue;
+    color: white;
+    width: 20rem;
+    border-radius: 8px;
+    line-height: 1.5;
+    margin-bottom: 2vw;
+    cursor: pointer;
+}
+
+#skip{
+    font-family: 'Archivo Narrow';
+    color:blue;
+    font-size: small;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.page-footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 2vh 1vw 1vh 1vw;
+}
+
+#follow{
+    font-family: 'Archivo Narrow';
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 7px;
+    font-size: medium;
+    cursor: pointer;
+    font-size: 1vw;
+}
